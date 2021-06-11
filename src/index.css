@@ -28,7 +28,9 @@ p {
     font-family: cursive
 }
 
-
+.btn{
+    height:100%
+}
 .main {
     width: 100%;
     height: 87vh;
@@ -39,23 +41,27 @@ p {
     font-family: cursive;
 
 }
-.genre-item{
-    border:1px solid black;
-    border-radius:4px;
-    margin-right:4px;
-    font-size:13px;
-    width:fit-content;
+
+.genre-item {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 4px;
+    font-size: 13px;
+    width: fit-content;
 }
-.genres-holder{
-    display:flex;
+
+.genres-holder {
+    display: flex;
 }
+
 h1 {
     text-align: center;
 }
 
 .table {
     position: fixed;
-    top: 150px;
+    top:80px;
+    margin-bottom:10px;
 }
 
 table,
@@ -98,4 +104,27 @@ td {
 
 .genre {
     width: 500px
+}
+.table-bar{
+    width:1150px;
+    height:40px;
+    background-color:blanchedalmond;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbar{
+    width:1150px;
+    height:40px;
+    background-color:rgb(138, 105, 56);
+    display:flex;
+    align-items: center;
+   
+}
+.search-input{
+    width:100%;
+    height:100%
+}
+.searchbtn{
+    height:100%
 }
