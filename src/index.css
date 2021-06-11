@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    height: 13vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua
+}
+
+p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive
+}
+
+
+.main {
+    width: 100%;
+    height: 87vh;
+    overflow: hidden;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: cursive;
+
+}
+.genre-item{
+    border:1px solid black;
+    border-radius:4px;
+    margin-right:4px;
+    font-size:13px;
+    width:fit-content;
+}
+.genres-holder{
+    display:flex;
+}
+h1 {
+    text-align: center;
+}
+
+.table {
+    position: fixed;
+    top: 150px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(17, 114, 41);
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: fit-content;
+    height: fit-content;
+}
+
+th,
+td {
+    height: 30px;
+    padding: 1px
+}
+
+
+
+.phone {
+    width: 150px
+}
+
+.name {
+    width: 250px
+}
+
+.city {
+    width: 200px;
+}
+
+.state {
+    width: 50px
+}
+
+.genre {
+    width: 500px
 }
