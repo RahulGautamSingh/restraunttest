@@ -28,7 +28,7 @@ export default function App() {
 
   useEffect(() => {
     async function fetchData() {
-      let response = await fetch("https://128.199.195.196:3001/", {
+      let response = await fetch("http://128.199.195.196:3001/", {
         headers: {
           Authorization: "Bearer iqi509189dxznal;,ggi",
         },
